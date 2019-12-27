@@ -1,0 +1,1220 @@
+<template lang="pug">
+.home
+  .scroll-box
+    .scale-box
+      //- 装饰图片
+      img.soulless.so-63.item-63(src="@|home-63.png|")
+      img.soulless.so-57.item-57(src="@|home-57.png|")
+      img.soulless.so-61.item-61(src="@|home-61.png|")
+      img.soulless.so-62.item-62(src="@|home-62.png|")
+      //- 可以点击的路径点
+      img.soulless.path-2.item-2(src="@|path-2.png|" o-tap="slowScrollTo(650)")
+      img.soulless.path-3.item-3(src="@|path-3.png|" o-tap="slowScrollTo(1180)")
+      img.soulless.path-4.item-4(src="@|path-4.png|" o-tap="slowScrollTo(1720)")
+      img.soulless.path-5.item-5(src="@|path-5.png|" o-tap="slowScrollTo(2270)")
+      img.soulless.path-6.item-6(src="@|path-6.png|" o-tap="slowScrollTo(2850)")
+      img.soulless.path-7.item-7(src="@|path-7.png|" o-tap="slowScrollTo(3460)")
+      img.soulless.path-8.item-8(src="@|path-8.png|" o-tap="slowScrollTo(4020)")
+      img.soulless.path-9.item-9(src="@|path-9.png|" o-tap="slowScrollTo(4550)")
+      img.soulless.path-10.item-10(src="@|path-10.png|")
+      //- 路标
+      img.soulless.suo-9.item-9.lax(src="@|doit-9.png|" data-lax-scale="(vw*0.9) 0, (vw*1.2) 1")
+      img.soulless.suo-8.item-8.lax(src="@|doit-8.png|" data-lax-scale="(vw*2.1) 0, (vw*2.8) 1")
+      img.soulless.suo-7.item-7.lax(src="@|doit-7.png|" data-lax-scale="(vw*3.4) 0, (vw*4.1) 1")
+      img.soulless.suo-6.item-6.lax(src="@|doit-6.png|" data-lax-scale="(vw*5.1) 0, (vw*5.9) 1")
+      img.soulless.suo-5.item-5.lax(src="@|doit-5.png|" data-lax-scale="(vw*6.6) 0, (vw*7.2) 1")
+      img.soulless.suo-4.item-4.lax(src="@|doit-4.png|" data-lax-scale="(vw*8.2) 0, (vw*8.8) 1")
+      img.soulless.suo-3.item-3.lax(src="@|doit-3.png|" data-lax-scale="(vw*9.7) 0, (vw*10) 1")
+      img.soulless.suo-2.item-2.lax(src="@|doit-2.png|" data-lax-scale="(vw*10.9) 0, (vw*11.5) 1")
+
+
+      // 活动图片
+      img.soulless.so-71.item-71.lax(src="@|home-71.png|" data-lax-opacity="(vw*0.1) 0, (vw*1.3) 1")
+      img.soulless.so-72.item-72.lax(src="@|home-72.png|" data-lax-opacity="(vw*0.7) 0, (vw*1.7) 1")
+      img.soulless.so-49.item-49.lax(src="@|home-49.png|" data-lax-scale="(vw*1.5) 0, (vw*2.5) 1")
+      img.soulless.so-50.item-50.lax(src="@|home-50.png|" data-lax-scale="(vw*2.2) 0, (vw*3.2) 1")
+      img.soulless.so-42.item-42.lax(src="@|home-42.png|")
+      img.soulless.so-43.item-43.lax(src="@|home-43.png|")
+      img.soulless.so-36.item-36.lax(src="@|home-36.png|")
+      img.soulless.so-41.item-41.lax(src="@|home-41.png|")
+      img.soulless.so-31.item-31.lax(src="@|home-31.png|")
+      img.soulless.so-32.item-32.lax(src="@|home-32.png|")
+      img.soulless.so-23.item-23.lax(src="@|home-23.png|" data-lax-translate-x="(vw*7.7) 500, (vw*8.8) 0")
+      img.soulless.so-24.item-24.lax(src="@|home-24.png|" data-lax-translate-x="(vw*8.2) 500, (vw*9.2) 0")
+      img.soulless.so-13.item-13.lax(src="@|home-13.png|" data-lax-translate-x="(vw*9.2) 500, (vw*10.2) 0")
+      img.soulless.so-12.item-12.lax(src="@|home-12.png|")
+      img.soulless.so-6.item-6.lax(src="@|home-6.png|" data-lax-translate-x="(vw*10.4) 500, (vw*11.4) 0")
+      //- 月份按钮
+      img.soulless.so-70.item-70(src="@|home-70.png|")
+      img.soulless.so-56.item-56(src="@|home-56.png|")
+      img.soulless.so-48.item-48(src="@|home-48.png|")
+      img.soulless.so-40.item-40(src="@|home-40.png|")
+      img.soulless.so-30.item-30(src="@|home-30.png|")
+      img.soulless.so-22.item-22(src="@|home-22.png|")
+      img.soulless.so-14.item-14(src="@|home-14.png|")
+      img.soulless.so-4.item-4(src="@|home-4.png|")
+      // 装饰元素
+      img.soulless.so-64.item-64.lax(src="@|home-64.png|" data-lax-translate-x="(vw*0.8) 0, (vw*2.2) -vw" data-lax-translate-y="(vw*0.8) 0, (vw*2.4) vh" data-lax-rotate="(vw*0.8) 0, (vw*2.4) 300")
+      img.soulless.so-66.item-66.lax(src="@|home-66.png|" data-lax-translate-x="(vw*1.1) 0, (vw*2.6) -800" data-lax-translate-y="(vw*1.1) 0, (vw*2.5) vh" data-lax-rotate="(vw*1.1) 0, (vw*2.4) 400")
+      img.soulless.so-65.item-65.lax(src="@|home-65.png|" data-lax-translate-x="(vw*1.4) 0, (vw*2.8) -vw" data-lax-translate-y="(vw*1.4) 0, (vw*2.4) vh" data-lax-rotate="(vw*1.4) 0, (vw*2.4) 250")
+      img.soulless.so-52.item-52.lax(src="@|home-52.png|" data-lax-translate-x="(vw*2.4) 0, (vw*3.6) -vw" data-lax-translate-y="(vw*2.4) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.4) 1, (vw*3.6) 0")
+      img.soulless.so-51.item-51.lax(src="@|home-51.png|" data-lax-translate-x="(vw*2.5) 0, (vw*3.7) -vw" data-lax-translate-y="(vw*2.5) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.2) 1, (vw*3.7) 0")
+      img.soulless.so-44.item-44.lax(src="@|home-44.png|" data-lax-opacity="(vw*4) 0, (vw*4.2) 1")
+      img.soulless.so-34.item-34.lax(src="@|home-34.png|" data-lax-opacity="(vw*5.6) 1, (vw*6.5) 0" data-lax-translate-y="(vw*5.6) 0, (vw*6.4) vh" data-lax-translate-x="(vw*5.6) 0, (vw*6.4) 100")
+      img.soulless.so-33.item-33.lax(src="@|home-33.png|" data-lax-opacity="(vw*5.6) 1, (vw*6.4) 0" data-lax-translate-y="(vw*5.5) 0, (vw*6.4) vh" data-lax-translate-x="(vw*5.6) 0, (vw*6.4) -40")
+      img.soulless.so-35.item-35.lax(src="@|home-35.png|" data-lax-opacity="(vw*5.6) 1, (vw*6.4) 0" data-lax-translate-y="(vw*5.5) 0, (vw*6.4) vh")
+      img.soulless.so-28.item-28.lax(src="@|home-28.png|" data-lax-scale="(vw*6.7) 0, (vw*7.2) 1")
+      img.soulless.so-29.item-29.lax(src="@|home-29.png|")
+      img.soulless.so-20.item-20.lax(src="@|home-20.png|" data-lax-opacity="(vw*9) 1, (vw*9.5) 0" data-lax-translate-x="(vw*8.5) 0, (vw*9.5) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.5) vh")
+      img.soulless.so-19.item-19.lax(src="@|home-19.png|" data-lax-opacity="(vw*9.1) 1, (vw*9.6) 0" data-lax-translate-x="(vw*8.4) 0, (vw*9.6) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.2) vh")
+      img.soulless.so-21.item-21.lax(src="@|home-21.png|" data-lax-opacity="(vw*9.1) 1, (vw*9.6) 0" data-lax-translate-x="(vw*8.4) 0, (vw*9.6) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.2) vh")
+      img.soulless.so-8.item-8.lax(src="@|home-8.png|" data-lax-opacity="(vw*9.7) 1, (vw*10.5) 0" data-lax-translate-x="(vw*9.7) 0, (vw*10.5) -vw" data-lax-translate-y="(vw*9.7) 0, (vw*10.5) vh")
+      img.soulless.so-9.item-9.lax(src="@|home-9.png|" data-lax-opacity="(vw*9.7) 1, (vw*10.5) 0" data-lax-translate-x="(vw*10) 0, (vw*10.8) -vw" data-lax-translate-y="(vw*9.7) 0, (vw*10.8) 400")
+      img.soulless.so-5.item-5.lax(src="@|home-5.png|" data-lax-scale="(vw*11.37) 0, (vw*11.6) 1")
+
+      //- 查看详情按钮
+      img.soulless.so-75.item-75(src="@|home-75.png|" o-tap="showProp('text-1')" o-animation="shrink")
+      img.soulless.so-78.item-78(src="@|home-78.png|" o-tap="showProp('text-2')" o-animation="shrink")
+      img.soulless.so-81.item-81(src="@|home-81.png|" o-tap="showProp('text-3')" o-animation="shrink")
+      img.soulless.so-87.item-87(src="@|home-87.png|" o-tap="showProp('text-4')" o-animation="shrink")
+      img.soulless.so-90.item-90(src="@|home-90.png|" o-tap="showProp('text-5')" o-animation="shrink")
+      img.soulless.so-93.item-93(src="@|home-93.png|" o-tap="showProp('text-6')" o-animation="shrink")
+      img.soulless.so-96.item-96(src="@|home-96.png|" o-tap="showProp('text-7')" o-animation="shrink")
+      img.soulless.so-99.item-99(src="@|home-99.png|" o-tap="showProp('text-8')" o-animation="shrink")
+      img.soulless.so-102.item-102(src="@|home-102.png|" o-tap="showProp('text-9')" o-animation="shrink")
+      img.soulless.so-105.item-105(src="@|home-105.png|" o-tap="showProp('text-10')" o-animation="shrink")
+      img.soulless.so-108.item-108(src="@|home-108.png|" o-tap="showProp('text-11')" o-animation="shrink")
+      img.soulless.so-111.item-111(src="@|home-111.png|" o-tap="showProp('text-12')" o-animation="shrink")
+      img.soulless.so-114.item-114(src="@|home-114.png|" o-tap="showProp('text-13')" o-animation="shrink")
+      img.soulless.so-117.item-117(src="@|home-117.png|" o-tap="showProp('text-14')" o-animation="shrink")
+      
+      //- 时间文字
+      p.soulless.so-74.item-74.lax(data-lax-opacity="(vw*0.1) 0, (vw*1.3) 1") 1月16日
+      p.soulless.so-77.item-77.lax(data-lax-opacity="(vw*0.7) 0, (vw*1.7) 1") 1月16日
+      p.soulless.so-80.item-80 4月15日
+      p.soulless.so-83.item-83 4月15日
+      p.soulless.so-86.item-86 5月20日
+      p.soulless.so-89.item-89 5月20日
+      p.soulless.so-92.item-92 7月15日
+      p.soulless.so-95.item-95 7月15日
+      p.soulless.so-98.item-98 8月19日
+      p.soulless.so-101.item-101 8月21日
+      p.soulless.so-104.item-104 9月16日
+      p.soulless.so-107.item-107 9月17日
+      p.soulless.so-110.item-110 11月2日
+      p.soulless.so-113.item-113 11月2日
+      p.soulless.so-116.item-116 12月19日
+      // 主标题文字
+      p.soulless.so-58.item-58 2019习近平地方考察的温情瞬间
+      p.soulless.so-67.item-67 京津冀
+      p.soulless.so-53.item-53 重庆
+      p.soulless.so-45.item-45 江西
+      p.soulless.so-37.item-37 内蒙古
+      p.soulless.so-25.item-25 甘肃
+      p.soulless.so-16.item-16 河南
+      p.soulless.so-10.item-10 上海
+      p.soulless.so-2.item-2 澳门
+      //- 主介绍文字
+      p.soulless.so-60.item-60 &emsp;&emsp;2019年，习近平8次赴地方考察。走基层、进山林、访社区，在雄安，他向铁路建设者致以亲切的问候；在天津，他为社区志愿者们点赞；在重庆，他看望贫困户；在江西，他与苏区的父老乡亲拉家常；在内蒙古，他和护林员亲切交谈；在甘肃，他同莫高窟游客握手问好；在上海，他关切老人用餐；在澳门，他同市民和师生亲切交流。<br>
+      p.soulless.so-69.item-69 1月16日至18日，习近平深入河北雄安新区、天津、北京，实地了解京津冀协同发展情况。
+      p.soulless.so-54.item-54 山城四月，春风和煦，山水透绿，一派生机勃勃。<br>4月15日，习近平深入石柱土家族自治县的学校、农村，实地了解脱贫攻坚工作情况。
+      p.soulless.so-47.item-47 5月20日，习近平深入赣州市的企业、农村、革命纪念馆，就经济社会发展进行考察调研，实地了解革命老区脱贫攻坚和推动中部地区。<br>崛起工作进展情况。
+      p.soulless.so-38.item-38 盛夏时节的内蒙古，蓝天白云，水草丰茂。<br>7月15日至16日，习近平深入社区、林场、农村、高校、机关单位，看望慰问各族干部群众，就经济社会发展、生态文明建设进行考察调研，实地指导开展“不忘初心、牢记使命”主题教育。
+      p.soulless.so-26.item-26 初秋的河西走廊，金风送爽，瓜果飘香，祁连雪山和沙漠绿洲相映成辉。8月19日至22日，习近平在甘肃深入文物保护单位、农村、学校、草场林场、革命纪念馆、防洪工程、文化企业等，就经济社会发展和“不忘初心、牢记使命”主题教育情况进行考察调研。
+      p.soulless.so-17.item-17 金秋时节，中原大地洋溢着丰收的喜悦，到处生机盎然。9月16日至18日，习近平在河南先后来到信阳、郑州等地，深入革命老区、农村、企业等，就经济社会发展和“不忘初心、牢记使命”主题教育情况进行考察调研。
+      p.soulless.so-11.item-11 11月2日至3日，习近平深入上海杨浦滨江、古北社区，就贯彻落实党的十九届四中全会精神、城市公共空间规划建设、社区治理和服务等进行调研，同基层干部群众亲切交流。
+      p.soulless.so-3.item-3 12月19日上午，国家主席习近平位于澳门黑沙环的政府综合服务中心和濠江中学附属英才学校，同澳门市民和师生亲切交流。
+      //- 副说明文字
+      p.soulless.so-73.item-73.lax(data-lax-opacity="(vw*0.1) 0, (vw*1.3) 1") 向铁路建设者<br>致以亲切的问候
+      p.soulless.so-76.item-76.lax(data-lax-opacity="(vw*0.7) 0, (vw*1.7) 1") 向铁路建设者<br>致以亲切的问候
+      p.soulless.so-79.item-79 嘱咐学校和老师<br>把学生教好、管好
+      p.soulless.so-82.item-82 看望贫困户<br>谭登周一家
+      p.soulless.so-85.item-85 会见红军后代、<br>革命烈士家属代表
+      p.soulless.so-88.item-88 与苏区的父老乡亲拉家常
+      p.soulless.so-91.item-91 深入林场同护林员<br>交流
+      p.soulless.so-94.item-94 到马鞍山村实地<br>了解乡亲们的<br>生产生活情况
+      p.soulless.so-97.item-97 同莫高窟游客<br>握手问好
+      p.soulless.so-100.item-100 实地了解“草方<br>格压沙”作业
+      p.soulless.so-103.item-103 同民宿店店主<br>一家亲切交谈
+      p.soulless.so-106.item-106 实地察看油茶树<br>种植和挂果情况
+      p.soulless.so-109.item-109 同群众亲切交谈
+      p.soulless.so-112.item-112 关切老年人用餐
+      p.soulless.so-115.item-115 亲自给学生上了一堂爱国主义教育课
+
+    //- 弹窗
+  .prop-box-shelter
+    .prop-box
+      svg(viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2982" width="32" height="32" o-tap="hideProp")
+        path(d="M760.96 195.2L512 444.16 263.04 195.2a48 48 0 0 0-67.84 67.84L444.16 512l-248.96 248.96A48 48 0 0 0 263.04 832L512 579.84 760.96 832A48 48 0 0 0 832 760.96L579.84 512 832 263.04a48 48 0 0 0-67.84-67.84z" p-id="2983" fill="#ffffff")
+      .prop
+        //- 第一段文字
+        .text.text-1(style="background-color: #4785b3;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-2(style="background-color: #4785b3;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-3(style="background-color: #ff916a;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-4(style="background-color: #598632;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-5(style="background-color: #598632;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-6(style="background-color: #d9402b;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-7(style="background-color: #d9402b;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-7(style="background-color: #6f8335;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-8(style="background-color: #6f8335;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-9(style="background-color: #b37f31;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-10(style="background-color: #b37f31;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-11(style="background-color: #b37f31;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-12(style="background-color: #b37f31;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-13(style="background-color: #bd6c2e;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+        .text.text-14(style="background-color: #337661;")
+          h2 向铁路建设者致以亲切的问候
+          p &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>&emsp;&emsp;习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      setTimeout(() => {
+        myScroll = new IScroll(this.$el, {
+          bounce: false,
+          momentum: false
+        })
+        myScroll.maxScrollY = parseInt(-maxHeight + window.innerHeight)
+        lax.setup() // init
+        const updateLax = () => {
+          lax.update(-myScroll.y)
+          window.requestAnimationFrame(updateLax)
+        }
+        window.requestAnimationFrame(updateLax)
+      }, 0)
+    },
+    slowScrollTo: function (num) {
+      console.log((num / 375) * myScroll.wrapperWidth)
+      myScroll.scrollTo(0, -(num / 375) * myScroll.wrapperWidth, 800)
+    },
+    showProp: function (classNmae) {
+      owo.query('.prop-box-shelter')[0].style.left = '0'
+      owo.query('.prop-box-shelter')[0].style.top = '0'
+      owo.query('.prop-box .prop .' + classNmae)[0].style.display = 'block'
+    },
+    hideProp: function (classNmae) {
+      owo.query('.prop-box-shelter')[0].style.left = '-100%'
+      setTimeout(() => {
+        owo.tool.each(owo.query('.prop-box .prop .text'), function (item) {
+          item.style.display = 'none'
+        })
+      }, 1000)
+    }
+  }
+</script>
+
+
+<style lang="less">
+.home {
+  overflow: hidden;
+}
+.scale-box {
+  position: relative;
+}
+.so-63 {
+  position: absolute;
+  left: 49px;
+  z-index: 63;
+  top: 62px;
+}
+.so-57 {
+  position: absolute;
+  left: 183px;
+  z-index: 57;
+  top: 181px;
+}
+.so-61 {
+  position: absolute;
+  left: 98px;
+  z-index: 61;
+  top: 278px;
+}
+.so-62 {
+  position: absolute;
+  left: 299px;
+  z-index: 62;
+  top: 10051px;
+}
+.so-71 {
+  position: absolute;
+  left: 303px;
+  z-index: 71;
+  top: 1699px;
+}
+.so-72 {
+  position: absolute;
+  left: 44px;
+  z-index: 72;
+  top: 2006px;
+}
+.so-49 {
+  position: absolute;
+  left: 37px;
+  z-index: 49;
+  top: 2723px;
+}
+.so-50 {
+  position: absolute;
+  left: 260px;
+  z-index: 50;
+  top: 3037px;
+}
+.so-42 {
+  position: absolute;
+  left: 110px;
+  z-index: 42;
+  top: 3822px;
+}
+.so-43 {
+  position: absolute;
+  left: 369px;
+  z-index: 43;
+  top: 4184px;
+}
+.so-36 {
+  position: absolute;
+  left: 33px;
+  z-index: 36;
+  top: 4984px;
+}
+.so-41 {
+  position: absolute;
+  left: 278px;
+  z-index: 41;
+  top: 5313px;
+}
+.so-31 {
+  position: absolute;
+  left: 277px;
+  z-index: 31;
+  top: 6186px;
+}
+.so-32 {
+  position: absolute;
+  left: 49px;
+  z-index: 32;
+  top: 6544px;
+}
+.so-23 {
+  position: absolute;
+  left: 263px;
+  z-index: 23;
+  top: 7372px;
+}
+.so-24 {
+  position: absolute;
+  left: 280px;
+  z-index: 24;
+  top: 7700px;
+}
+.so-13 {
+  position: absolute;
+  left: 266px;
+  z-index: 13;
+  top: 8436px;
+}
+.so-12 {
+  position: absolute;
+  left: 56px;
+  z-index: 12;
+  top: 8745px;
+}
+.so-6 {
+  position: absolute;
+  left: 171px;
+  z-index: 6;
+  top: 9534px;
+}
+.so-70 {
+  position: absolute;
+  left: 70px;
+  z-index: 70;
+  top: 1412px;
+}
+.so-56 {
+  position: absolute;
+  left: 81px;
+  z-index: 56;
+  top: 2413px;
+}
+.so-48 {
+  position: absolute;
+  left: 546px;
+  z-index: 48;
+  top: 3472px;
+}
+.so-40 {
+  position: absolute;
+  left: 72px;
+  z-index: 40;
+  top: 4603px;
+}
+.so-30 {
+  position: absolute;
+  left: 588px;
+  z-index: 30;
+  top: 5777px;
+}
+.so-22 {
+  position: absolute;
+  left: 523px;
+  z-index: 22;
+  top: 6986px;
+}
+.so-14 {
+  position: absolute;
+  left: 557px;
+  z-index: 14;
+  top: 8087px;
+}
+.so-4 {
+  position: absolute;
+  left: 68px;
+  z-index: 4;
+  top: 9133px;
+}
+.so-75 {
+  position: absolute;
+  left: 87px;
+  z-index: 75;
+  top: 1892px;
+}
+.so-78 {
+  position: absolute;
+  left: 491px;
+  z-index: 78;
+  top: 2240px;
+}
+.so-81 {
+  position: absolute;
+  left: 461px;
+  z-index: 81;
+  top: 2913px;
+}
+.so-87 {
+  position: absolute;
+  left: 464px;
+  z-index: 87;
+  top: 4028px;
+}
+.so-90 {
+  position: absolute;
+  left: 97px;
+  z-index: 90;
+  top: 4392px;
+}
+.so-93 {
+  position: absolute;
+  left: 481px;
+  z-index: 93;
+  top: 5161px;
+}
+.so-96 {
+  position: absolute;
+  left: 54px;
+  z-index: 96;
+  top: 5539px;
+}
+.so-99 {
+  position: absolute;
+  left: 74px;
+  z-index: 99;
+  top: 6377px;
+}
+.so-102 {
+  position: absolute;
+  left: 484px;
+  z-index: 102;
+  top: 6755px;
+}
+.so-105 {
+  position: absolute;
+  left: 55px;
+  z-index: 105;
+  top: 7568px;
+}
+.so-108 {
+  position: absolute;
+  left: 54px;
+  z-index: 108;
+  top: 7890px;
+}
+.so-111 {
+  position: absolute;
+  left: 53px;
+  z-index: 111;
+  top: 8605px;
+}
+.so-114 {
+  position: absolute;
+  left: 493px;
+  z-index: 114;
+  top: 8897px;
+}
+.so-117 {
+  position: absolute;
+  left: 96px;
+  z-index: 117;
+  top: 9509px;
+}
+.so-64 {
+  position: absolute;
+  left: 568px;
+  z-index: 64;
+  top: 1450px;
+}
+.so-66 {
+  position: absolute;
+  left: 612px;
+  z-index: 66;
+  top: 1470px;
+}
+.so-65 {
+  position: absolute;
+  left: 677px;
+  z-index: 65;
+  top: 1509px;
+}
+.so-52 {
+  position: absolute;
+  left: 623px;
+  top: 2404px;
+}
+.so-51 {
+  position: absolute;
+  left: 664px;
+  top: 2439px;
+}
+.so-44 {
+  position: absolute;
+  left: 49px;
+  z-index: 44;
+  top: 3477px;
+}
+.so-34 {
+  position: absolute;
+  left: 574px;
+  z-index: 34;
+  top: 4616px;
+}
+.so-33 {
+  position: absolute;
+  left: 514px;
+  z-index: 33;
+  top: 4667px;
+}
+.so-35 {
+  position: absolute;
+  left: 629px;
+  z-index: 35;
+  top: 4634px;
+}
+.so-28 {
+  position: absolute;
+  left: 44px;
+  z-index: 28;
+  top: 5713px;
+}
+.so-29 {
+  position: absolute;
+  left: 86px;
+  z-index: 29;
+  top: 5966px;
+}
+.so-20 {
+  position: absolute;
+  left: 625px;
+  z-index: 20;
+  top: 7055px;
+}
+.so-19 {
+  position: absolute;
+  left: 649px;
+  z-index: 19;
+  top: 7049px;
+}
+.so-21 {
+  position: absolute;
+  left: 612px;
+  z-index: 21;
+  top: 7279px;
+}
+.so-8 {
+  position: absolute;
+  left: 395px;
+  z-index: 8;
+  top: 8106px;
+}
+.so-9 {
+  position: absolute;
+  left: 472px;
+  z-index: 9;
+  top: 8148px;
+}
+.so-5 {
+  position: absolute;
+  left: 563px;
+  z-index: 5;
+  top: 9161px;
+}
+.so-74 {
+  position: absolute;
+  left: 109px;
+  z-index: 74;
+  font-size: 35px;
+  line-height: 32px;
+  color: rgba(91, 152, 203, 1.00);
+  top: 1730px;
+}
+.so-77 {
+  position: absolute;
+  left: 513px;
+  z-index: 77;
+  font-size: 35px;
+  line-height: 32px;
+  color: rgba(91, 152, 203, 1.00);
+  top: 2078px;
+}
+.so-80 {
+  position: absolute;
+  left: 480px;
+  z-index: 80;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 2751px;
+}
+.so-83 {
+  position: absolute;
+  left: 89px;
+  z-index: 83;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 3082px;
+}
+.so-86 {
+  position: absolute;
+  left: 484px;
+  z-index: 86;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 3866px;
+}
+.so-89 {
+  position: absolute;
+  left: 117px;
+  z-index: 89;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 4230px;
+}
+.so-92 {
+  position: absolute;
+  left: 501px;
+  z-index: 92;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 4999px;
+}
+.so-95 {
+  position: absolute;
+  left: 74px;
+  z-index: 95;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 5334px;
+}
+.so-98 {
+  position: absolute;
+  left: 94px;
+  z-index: 98;
+  font-size: 35px;
+  line-height: 32px;
+  color: #6f8335;
+  top: 6206px;
+}
+.so-101 {
+  position: absolute;
+  left: 504px;
+  z-index: 101;
+  font-size: 35px;
+  line-height: 32px;
+  color: #6f8335;
+  top: 6589px;
+}
+.so-104 {
+  position: absolute;
+  left: 95px;
+  z-index: 104;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 7402px;
+}
+.so-107 {
+  position: absolute;
+  left: 74px;
+  z-index: 107;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 7724px;
+}
+.so-110 {
+  position: absolute;
+  left: 75px;
+  z-index: 110;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 8479px;
+}
+.so-113 {
+  position: absolute;
+  left: 515px;
+  z-index: 113;
+  font-size: 35px;
+  line-height: 32px;
+  color: #d4a888;
+  top: 8770px;
+}
+.so-116 {
+  position: absolute;
+  left: 118px;
+  z-index: 116;
+  font-size: 35px;
+  line-height: 32px;
+  color: #96b8ae;
+  top: 9382px;
+}
+
+.so-67 {
+  position: absolute;
+  left: 267px;
+  z-index: 67;
+  font-size: 38px;
+  line-height: 32px;
+  color: rgba(91, 152, 203, 1.00);
+  top: 1442px;
+  font-weight: bold;
+}
+.so-53 {
+  position: absolute;
+  left: 348px;
+  z-index: 53;
+  font-size: 37px;
+  line-height: 32px;
+  color: rgba(228, 100, 59, 1.00);
+  top: 2421px;
+  width: 153px;
+  font-weight: bold;
+}
+.so-45 {
+  position: absolute;
+  left: 304px;
+  z-index: 45;
+  font-size: 37px;
+  line-height: 32px;
+  color: rgba(90, 134, 50, 1.00);
+  top: 3534px;
+  width: 152px;
+  font-weight: bold;
+}
+.so-37 {
+  position: absolute;
+  left: 191px;
+  z-index: 37;
+  font-size: 37px;
+  line-height: 32px;
+  color: rgba(232, 73, 51, 1.00);
+  top: 4675px;
+  width: 189px;
+  font-weight: bold;
+}
+.so-25 {
+  position: absolute;
+  left: 241px;
+  z-index: 25;
+  font-size: 37px;
+  line-height: 32px;
+  color: rgba(112, 131, 53, 1.00);
+  top: 5823px;
+  width: 153px;
+  font-weight: bold;
+}
+.so-16 {
+  position: absolute;
+  left: 213px;
+  z-index: 16;
+  font-size: 37px;
+  line-height: 32px;
+  color: rgba(179, 127, 49, 1.00);
+  top: 7049px;
+  width: 152px;
+  font-weight: bold;
+}
+.so-10 {
+  position: absolute;
+  left: 181px;
+  z-index: 10;
+  font-size: 37px;
+  line-height: 32px;
+  color: rgba(189, 108, 46, 1.00);
+  top: 8148px;
+  width: 152px;
+  font-weight: bold;
+}
+.so-2 {
+  position: absolute;
+  left: 300px;
+  z-index: 2;
+  font-size: 38px;
+  line-height: 32px;
+  color: rgba(51, 118, 97, 1.00);
+  top: 9173px;
+  font-weight: bold;
+}
+.so-69 {
+  position: absolute;
+  left: 266px;
+  z-index: 69;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1.00);
+  top: 1554px;
+  width: 394px;
+}
+.so-54 {
+  position: absolute;
+  left: 349px;
+  z-index: 54;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1.00);
+  top: 2499px;
+  width: 314px;
+}
+.so-47 {
+  position: absolute;
+  left: 304px;
+  z-index: 47;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+  top: 3597px;
+  width: 395px;
+}
+.so-38 {
+  position: absolute;
+  left: 189px;
+  z-index: 38;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1.00);
+  top: 4753px;
+  width: 500px;
+}
+.so-26 {
+  position: absolute;
+  left: 242px;
+  z-index: 26;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1.00);
+  top: 5895px;
+  width: 459px;
+}
+.so-17 {
+  position: absolute;
+  left: 88px;
+  z-index: 17;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1.00);
+  top: 7136px;
+  width: 540px;
+}
+.so-11 {
+  position: absolute;
+  left: 181px;
+  z-index: 11;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1.00);
+  top: 8230px;
+  width: 482px;
+}
+.so-3 {
+  position: absolute;
+  left: 300px;
+  z-index: 3;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 1.00);
+  top: 9240px;
+  width: 394px;
+}
+.so-60 {
+  position: absolute;
+  left: 84px;
+  z-index: 60;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+  top: 556px;
+  width: 576px;
+}
+.so-73 {
+  position: absolute;
+  left: 88px;
+  z-index: 73;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: rgba(91, 152, 203, 1.00);
+  top: 1789px;
+  width: 207px;
+}
+.so-76 {
+  position: absolute;
+  left: 491px;
+  z-index: 76;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: rgba(91, 152, 203, 1.00);
+  top: 2137px;
+  width: 209px;
+}
+.so-79 {
+  position: absolute;
+  left: 462px;
+  z-index: 79;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 2810px;
+  width: 238px;
+}
+.so-82 {
+  position: absolute;
+  left: 71px;
+  z-index: 82;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 3141px;
+  width: 148px;
+}
+.so-85 {
+  position: absolute;
+  left: 464px;
+  z-index: 85;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 3925px;
+  width: 239px;
+}
+.so-88 {
+  position: absolute;
+  left: 97px;
+  z-index: 88;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 4289px;
+  width: 239px;
+}
+.so-91 {
+  position: absolute;
+  left: 481px;
+  z-index: 91;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 5058px;
+  width: 238px;
+}
+.so-94 {
+  position: absolute;
+  left: 55px;
+  z-index: 94;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 5393px;
+  width: 208px;
+}
+.so-97 {
+  position: absolute;
+  left: 74px;
+  z-index: 97;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #6f8335;
+  top: 6266px;
+  width: 179px;
+}
+.so-100 {
+  position: absolute;
+  left: 484px;
+  z-index: 100;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #6f8335;
+  top: 6649px;
+  width: 245px;
+}
+.so-103 {
+  position: absolute;
+  left: 55px;
+  z-index: 103;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 7461px;
+  width: 179px;
+}
+.so-106 {
+  position: absolute;
+  left: 54px;
+  z-index: 106;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 7783px;
+  width: 209px;
+}
+.so-109 {
+  position: absolute;
+  left: 55px;
+  z-index: 109;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 8538px;
+}
+.so-112 {
+  position: absolute;
+  left: 493px;
+  z-index: 112;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #d4a888;
+  top: 8829px;
+}
+.so-115 {
+  position: absolute;
+  left: 97px;
+  z-index: 115;
+  font-family: 'FZLTCHPro--GB1-4', 'AdobeInvisFont', 'AdobeHeitiStd-Regular';
+  font-size: 29px;
+  line-height: 40px;
+  color: #96b8ae;
+  top: 9441px;
+}
+.so-58 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  line-height: 32px;
+  color: #c4422f;
+  top: 500px;
+  font-weight: bold;
+}
+.path-2 {
+  position: absolute;
+  left: 113px;
+  z-index: 2;
+  top: 810px;
+}
+.path-3 {
+  position: absolute;
+  left: 171px;
+  z-index: 3;
+  top: 885px;
+}
+.path-4 {
+  position: absolute;
+  left: 236px;
+  z-index: 4;
+  top: 936px;
+}
+.path-5 {
+  position: absolute;
+  left: 308px;
+  z-index: 5;
+  top: 913px;
+}
+.path-6 {
+  position: absolute;
+  left: 376px;
+  z-index: 6;
+  top: 936px;
+}
+.path-7 {
+  position: absolute;
+  left: 446px;
+  z-index: 7;
+  top: 942px;
+}
+.path-8 {
+  position: absolute;
+  left: 520px;
+  z-index: 8;
+  top: 1002px;
+}
+.path-9 {
+  position: absolute;
+  left: 592px;
+  z-index: 9;
+  top: 1037px;
+}
+.path-10 {
+  position: absolute;
+  left: -99px;
+  top: 883px;
+}
+.prop-box-shelter {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+  left: -100%;
+  top: -100%;
+  transition: left 0.5s linear;
+  .prop-box {
+    position: absolute;
+    width: 90%;
+    height: 80vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px;
+    svg {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+    }
+    .text {
+      padding: 6vh 40px;
+      color: white;
+      height: 68vh;
+      overflow: hidden;
+      background-color: #4785b3;
+      border-radius: 5px;
+      display: none;
+    }
+    h2 {
+      text-align: center;
+      line-height: 24px;
+      margin: 10px 0;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+  }
+}
+.suo-9 {
+  position: absolute;
+  left: 96px;
+  z-index: 9;
+  top: 1437px;
+}
+.suo-8 {
+  position: absolute;
+  left: 238px;
+  z-index: 8;
+  top: 2458px;
+}
+.suo-7 {
+  position: absolute;
+  left: 191px;
+  z-index: 7;
+  top: 3568px;
+}
+.suo-6 {
+  position: absolute;
+  left: 74px;
+  z-index: 6;
+  top: 4710px;
+}
+.suo-5 {
+  position: absolute;
+  left: 135px;
+  z-index: 5;
+  top: 5860px;
+}
+.suo-4 {
+  position: absolute;
+  left: 89px;
+  z-index: 4;
+  top: 7021px;
+}
+.suo-3 {
+  position: absolute;
+  left: 71px;
+  z-index: 3;
+  top: 8183px;
+}
+.suo-2 {
+  position: absolute;
+  left: 189px;
+  z-index: 2;
+  top: 9209px;
+}
+</style>
