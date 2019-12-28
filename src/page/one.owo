@@ -18,9 +18,9 @@
       img.soulless.path-9.item-9(src="@|path-9.png|" o-tap="slowScrollTo(4550)")
       img.soulless.path-10.item-10(src="@|path-10.png|")
       //- 路标
-      img.soulless.suo-9.item-9.lax(src="@|doit-9.png|" data-lax-scale="(vw*0.9) 0, (vw*1.2) 1")
-      img.soulless.suo-8.item-8.lax(src="@|doit-8.png|" data-lax-scale="(vw*2.1) 0, (vw*2.8) 1")
-      img.soulless.suo-7.item-7.lax(src="@|doit-7.png|" data-lax-scale="(vw*3.4) 0, (vw*4.1) 1")
+      img.soulless.suo-9.item-9.lax(src="@|doit-9.png|" data-lax-opacity="(vw*0.6) 0, (vw*1.6) 1")
+      img.soulless.suo-8.item-8.lax(src="@|doit-8.png|" data-lax-scale="(vw*1.8) 0, (vw*2.4) 1")
+      img.soulless.suo-7.item-7.lax(src="@|doit-7.png|" data-lax-opacity="(vw*3.4) 0, (vw*4.1) 1")
       img.soulless.suo-6.item-6.lax(src="@|doit-6.png|" data-lax-scale="(vw*5.1) 0, (vw*5.9) 1")
       img.soulless.suo-5.item-5.lax(src="@|doit-5.png|" data-lax-scale="(vw*6.6) 0, (vw*7.2) 1")
       img.soulless.suo-4.item-4.lax(src="@|doit-4.png|" data-lax-scale="(vw*8.2) 0, (vw*8.8) 1")
@@ -54,23 +54,31 @@
       img.soulless.so-14.item-14(src="@|home-14.png|")
       img.soulless.so-4.item-4(src="@|home-4.png|")
       // 装饰元素
-      img.soulless.so-64.item-64.lax(src="@|home-64.png|" data-lax-translate-x="(vw*0.8) 0, (vw*2.2) -vw" data-lax-translate-y="(vw*0.8) 0, (vw*2.4) vh" data-lax-rotate="(vw*0.8) 0, (vw*2.4) 300")
-      img.soulless.so-66.item-66.lax(src="@|home-66.png|" data-lax-translate-x="(vw*1.1) 0, (vw*2.6) -800" data-lax-translate-y="(vw*1.1) 0, (vw*2.5) vh" data-lax-rotate="(vw*1.1) 0, (vw*2.4) 400")
-      img.soulless.so-65.item-65.lax(src="@|home-65.png|" data-lax-translate-x="(vw*1.4) 0, (vw*2.8) -vw" data-lax-translate-y="(vw*1.4) 0, (vw*2.4) vh" data-lax-rotate="(vw*1.4) 0, (vw*2.4) 250")
-      img.soulless.so-52.item-52.lax(src="@|home-52.png|" data-lax-translate-x="(vw*2.4) 0, (vw*3.6) -vw" data-lax-translate-y="(vw*2.4) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.4) 1, (vw*3.6) 0")
+      img.soulless.so-64.item-64.lax(src="@|home-64.png|" data-lax-translate-x="(vw*1.1) 0, (vw*2.2) -vw" data-lax-translate-y="(vw*1.1) 0, (vw*2.4) vh" data-lax-rotate="(vw*1.1) 0, (vw*2.4) 300" data-lax-opacity="(vw*1.1) 0, (vw*2.4) 1")
+      img.soulless.so-66.item-66.lax(src="@|home-66.png|" data-lax-translate-x="(vw*1.1) 0, (vw*2.6) -800" data-lax-translate-y="(vw*1.1) 0, (vw*2.5) vh" data-lax-rotate="(vw*1.1) 0, (vw*2.4) 400" data-lax-opacity="(vw*1.1) 0, (vw*2.4) 1")
+      img.soulless.so-65.item-65.lax(src="@|home-65.png|" data-lax-translate-x="(vw*1.1) 0, (vw*2.8) -vw" data-lax-translate-y="(vw*1.1) 0, (vw*2.4) vh" data-lax-rotate="(vw*1.1) 0, (vw*2.4) 250" data-lax-opacity="(vw*1.1) 0, (vw*2.4) 1")
+      img.soulless.so-52.item-52.lax(src="@|home-52.png|" data-lax-translate-x="(vw*2.4) 0, (vw*3.6) -600" data-lax-translate-y="(vw*2.4) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.4) 1, (vw*3.6) 0")
       img.soulless.so-51.item-51.lax(src="@|home-51.png|" data-lax-translate-x="(vw*2.5) 0, (vw*3.7) -vw" data-lax-translate-y="(vw*2.5) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.2) 1, (vw*3.7) 0")
       img.soulless.so-44.item-44.lax(src="@|home-44.png|" data-lax-opacity="(vw*4) 0, (vw*4.2) 1")
-      img.soulless.so-34.item-34.lax(src="@|home-34.png|" data-lax-opacity="(vw*5.6) 1, (vw*6.5) 0" data-lax-translate-y="(vw*5.6) 0, (vw*6.4) vh" data-lax-translate-x="(vw*5.6) 0, (vw*6.4) 100")
-      img.soulless.so-33.item-33.lax(src="@|home-33.png|" data-lax-opacity="(vw*5.6) 1, (vw*6.4) 0" data-lax-translate-y="(vw*5.5) 0, (vw*6.4) vh" data-lax-translate-x="(vw*5.6) 0, (vw*6.4) -40")
-      img.soulless.so-35.item-35.lax(src="@|home-35.png|" data-lax-opacity="(vw*5.6) 1, (vw*6.4) 0" data-lax-translate-y="(vw*5.5) 0, (vw*6.4) vh")
-      img.soulless.so-28.item-28.lax(src="@|home-28.png|" data-lax-scale="(vw*6.7) 0, (vw*7.2) 1")
-      img.soulless.so-29.item-29.lax(src="@|home-29.png|")
+      //- 花瓣们
+      img.soulless.so-34.item-34.lax(src="@|home-34.png|" data-lax-opacity="(vw*6) 1, (vw*6.8) 0" data-lax-translate-y="(vw*5.1) 0, (vw*6.8) 700" data-lax-translate-x="(vw*5.1) 0, (vw*6.8) -700" data-lax-rotate="(vw*5.1) 0, (vw*6.4) 250")
+      img.soulless.so-34.item-34.lax(src="@|home-34.png|" data-lax-opacity="(vw*6) 1, (vw*6.8) 0" data-lax-translate-y="(vw*5.2) 0, (vw*6.8) 600" data-lax-translate-x="(vw*5.2) 0, (vw*6.8) -600" data-lax-rotate="(vw*5.2) 0, (vw*6.4) 350")
+      img.soulless.so-34.item-34.lax(src="@|home-34.png|" data-lax-opacity="(vw*6) 1, (vw*6.8) 0" data-lax-translate-y="(vw*5.3) 0, (vw*6.8) 550" data-lax-translate-x="(vw*5.3) 0, (vw*6.8) -350" data-lax-rotate="(vw*5.3) 0, (vw*6.4) 150")
+      img.soulless.so-34.item-34.lax(src="@|home-34.png|" data-lax-opacity="(vw*6) 1, (vw*6.8) 0" data-lax-translate-y="(vw*5.4) 0, (vw*6.8) 720" data-lax-translate-x="(vw*5.4) 0, (vw*6.8) -500" data-lax-rotate="(vw*5.4) 0, (vw*6.4) 50")
+      //- data-lax-opacity="(vw*5.6) 1, (vw*6.4) 0" data-lax-translate-y="(vw*5.5) 0, (vw*6.4) vh" data-lax-translate-x="(vw*5.6) 0, (vw*6.4) -40"
+      img.soulless.so-33.item-33.lax(src="@|home-33.png|")
+      //- data-lax-opacity="(vw*5.6) 1, (vw*6.4) 0" data-lax-translate-y="(vw*5.5) 0, (vw*6.4) vh"
+      img.soulless.so-35.item-35.lax(src="@|home-35.png|")
+      //- data-lax-scale="(vw*6.7) 0, (vw*7.2) 1"
+      img.soulless.so-28.item-28.lax(src="@|home-28.png|")
+      img.soulless.so-29.item-29.lax(src="@|home-29.png|" data-lax-translate-y="(vw*6.7) 0, (vw*7.8) vh" data-lax-translate-x="(vw*6.7) 0, (vw*7.8) vw" data-lax-opacity="(vw*7.6) 1, (vw*7.8) 0")
       img.soulless.so-20.item-20.lax(src="@|home-20.png|" data-lax-opacity="(vw*9) 1, (vw*9.5) 0" data-lax-translate-x="(vw*8.5) 0, (vw*9.5) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.5) vh")
       img.soulless.so-19.item-19.lax(src="@|home-19.png|" data-lax-opacity="(vw*9.1) 1, (vw*9.6) 0" data-lax-translate-x="(vw*8.4) 0, (vw*9.6) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.2) vh")
       img.soulless.so-21.item-21.lax(src="@|home-21.png|" data-lax-opacity="(vw*9.1) 1, (vw*9.6) 0" data-lax-translate-x="(vw*8.4) 0, (vw*9.6) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.2) vh")
       img.soulless.so-8.item-8.lax(src="@|home-8.png|" data-lax-opacity="(vw*9.7) 1, (vw*10.5) 0" data-lax-translate-x="(vw*9.7) 0, (vw*10.5) -vw" data-lax-translate-y="(vw*9.7) 0, (vw*10.5) vh")
       img.soulless.so-9.item-9.lax(src="@|home-9.png|" data-lax-opacity="(vw*9.7) 1, (vw*10.5) 0" data-lax-translate-x="(vw*10) 0, (vw*10.8) -vw" data-lax-translate-y="(vw*9.7) 0, (vw*10.8) 400")
-      img.soulless.so-5.item-5.lax(src="@|home-5.png|" data-lax-scale="(vw*11.37) 0, (vw*11.6) 1")
+      //- data-lax-scale="(vw*11.37) 0, (vw*11.6) 1"
+      img.soulless.so-5.item-5.lax(src="@|home-5.png|")
 
       //- 查看详情按钮
       img.soulless.so-75.item-75(src="@|home-75.png|" o-tap="showProp('text-1')" o-animation="shrink")
@@ -218,17 +226,15 @@
       myScroll.scrollTo(0, -(num / 375) * myScroll.wrapperWidth, 800)
     },
     showProp: function (classNmae) {
+      owo.tool.each(owo.query('.prop-box .prop .text'), function (item) {
+        item.style.display = 'none'
+      })
       owo.query('.prop-box-shelter')[0].style.left = '0'
       owo.query('.prop-box-shelter')[0].style.top = '0'
       owo.query('.prop-box .prop .' + classNmae)[0].style.display = 'block'
     },
     hideProp: function (classNmae) {
       owo.query('.prop-box-shelter')[0].style.left = '-100%'
-      setTimeout(() => {
-        owo.tool.each(owo.query('.prop-box .prop .text'), function (item) {
-          item.style.display = 'none'
-        })
-      }, 1000)
     }
   }
 </script>
@@ -523,9 +529,8 @@
 }
 .so-34 {
   position: absolute;
-  left: 574px;
-  z-index: 34;
-  top: 4616px;
+  left: 602px;
+  top: 4692px;
 }
 .so-33 {
   position: absolute;
@@ -549,7 +554,7 @@
   position: absolute;
   left: 86px;
   z-index: 29;
-  top: 5966px;
+  top: 5895px;
 }
 .so-20 {
   position: absolute;
@@ -1066,7 +1071,7 @@
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: 36px;
+  font-size: 38px;
   line-height: 32px;
   color: #c4422f;
   top: 500px;
