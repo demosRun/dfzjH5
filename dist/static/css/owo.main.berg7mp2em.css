@@ -388,10 +388,26 @@ li {
   top: 2404px;
 }
 
+.petal-1 {
+  position: absolute;
+  left: 697px;
+  top: 2462px;
+  width: 20px;
+}
+
 .so-51 {
   position: absolute;
   left: 664px;
   top: 2439px;
+}
+
+.petal-2,
+.petal-3,
+.petal-4 {
+  position: absolute;
+  left: 695px;
+  top: 2458px;
+  width: 20px;
 }
 
 .so-44 {
@@ -399,6 +415,27 @@ li {
   left: 49px;
   z-index: 44;
   top: 3477px;
+}
+
+.bamboo-1 {
+  position: absolute;
+  left: 82px;
+  top: 3562px;
+  width: 40px;
+}
+
+.bamboo-2 {
+  position: absolute;
+  left: 46px;
+  top: 3613px;
+  width: 37px;
+}
+
+.bamboo-3 {
+  position: absolute;
+  left: 134px;
+  top: 3548px;
+  width: 40px;
 }
 
 .so-34 {
@@ -1124,56 +1161,56 @@ li {
 
 .suo-9 {
   position: absolute;
-  left: 96px;
+  left: 125px;
   z-index: 9;
-  top: 1437px;
+  top: 1460px;
 }
 
 .suo-8 {
   position: absolute;
-  left: 238px;
+  left: 200px;
   z-index: 8;
   top: 2458px;
 }
 
 .suo-7 {
   position: absolute;
-  left: 191px;
+  left: 126px;
   z-index: 7;
   top: 3568px;
 }
 
 .suo-6 {
   position: absolute;
-  left: 74px;
+  left: 20px;
   z-index: 6;
   top: 4710px;
 }
 
 .suo-5 {
   position: absolute;
-  left: 135px;
+  left: 80px;
   z-index: 5;
   top: 5860px;
 }
 
 .suo-4 {
   position: absolute;
-  left: 89px;
+  left: 45px;
   z-index: 4;
-  top: 7021px;
+  top: 6985px;
 }
 
 .suo-3 {
   position: absolute;
-  left: 71px;
+  left: 10px;
   z-index: 3;
   top: 8183px;
 }
 
 .suo-2 {
   position: absolute;
-  left: 189px;
+  left: 130px;
   z-index: 2;
   top: 9209px;
 }

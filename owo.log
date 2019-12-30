@@ -1,132 +1,153 @@
-[2019-12-28T13:38:46.429] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-12-28T13:38:46.431] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\dfzjH5
-[2019-12-28T13:38:46.431] [INFO] default - 首次启动!
-[2019-12-28T13:38:46.431] [INFO] default - 生成版本号: 0ynbui4bndr
-[2019-12-28T13:38:46.450] [INFO] default - 清理资源文件夹: C:\Users\my\Documents\GitHub\dfzjH5\dist\static
-[2019-12-28T13:38:46.450] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\dfzjH5\dist\static
-[2019-12-28T13:38:46.450] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\dfzjH5\dist\static
-[2019-12-28T13:38:46.450] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-12-28T13:38:46.451] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-12-28T13:38:46.451] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-12-28T13:38:46.452] [INFO] default - 开始处理模块: one
-[2019-12-28T13:38:47.054] [DEBUG] default - 缓存模板: one./src/page/one.owo
-[2019-12-28T13:38:47.149] [DEBUG] default - 页面one处理用时: 697 毫秒!
-[2019-12-28T13:38:47.151] [INFO] default - 文件夹不存在: C:/Users/my/Documents/GitHub/dfzjH5/dist/static/resource
-[2019-12-28T13:38:47.151] [INFO] default - 创建文件夹: C:/Users/my/Documents/GitHub/dfzjH5/dist/static/resource
-[2019-12-28T13:38:47.151] [DEBUG] default - css中的资源处理完毕!
-[2019-12-28T13:38:47.692] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-12-28T13:38:47.762] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\css
-[2019-12-28T13:38:47.762] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\css
-[2019-12-28T13:38:47.762] [INFO] default - 开始处理附属css中的资源
-[2019-12-28T13:38:47.763] [INFO] default - 附属css中的资源处理完毕!
-[2019-12-28T13:38:47.763] [INFO] default - 处理字体: {}
-[2019-12-28T13:38:47.769] [INFO] default - 使用postcss处理完毕! 用时: 77 毫秒
-[2019-12-28T13:38:47.770] [INFO] default - 正在处理script!
-[2019-12-28T13:38:48.380] [INFO] default - 工程中只有一个页面!
-[2019-12-28T13:38:48.382] [INFO] default - js中的资源处理完毕!
-[2019-12-28T13:38:48.382] [DEBUG] default - 处理引用脚本: [{"name":"iscroll-lite","src":"./src/resource/iscroll-lite.js"},{"name":"lax","src":"./src/resource/lax.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-12-28T13:38:48.382] [DEBUG] default - 外部脚本数量: 3
-[2019-12-28T13:38:48.382] [DEBUG] default - 处理脚本: iscroll-lite
-[2019-12-28T13:38:48.382] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\dfzjH5\src\resource\iscroll-lite.js
-[2019-12-28T13:38:48.382] [DEBUG] default - 处理脚本: lax
-[2019-12-28T13:38:48.383] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\dfzjH5\src\resource\lax.js
-[2019-12-28T13:38:48.383] [DEBUG] default - 处理脚本: main
-[2019-12-28T13:38:48.383] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\dfzjH5\src\main.js
-[2019-12-28T13:38:48.383] [DEBUG] default - 输出scriptData
-[2019-12-28T13:38:48.384] [DEBUG] default - 准备输出html!
-[2019-12-28T13:38:48.389] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-34.png
-[2019-12-28T13:38:48.389] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-34.png
-[2019-12-28T13:38:48.389] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-34.png
-[2019-12-28T13:38:48.391] [DEBUG] default - 处理资源:  [ 'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-63.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-57.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-61.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-62.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-2.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-3.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-4.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-5.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-6.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-7.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-8.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-9.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/path-10.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/doit-9.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/doit-8.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/doit-7.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/doit-6.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/doit-5.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/doit-4.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/doit-3.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/doit-2.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-71.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-72.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-49.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-50.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-42.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-43.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-36.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-41.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-31.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-32.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-23.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-24.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-13.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-12.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-6.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-70.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-56.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-48.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-40.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-30.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-22.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-14.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-4.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-64.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-66.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-65.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-52.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-51.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-44.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-34.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-33.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-35.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-28.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-29.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-20.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-19.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-21.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-8.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-9.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-5.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-75.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-78.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-81.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-87.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-90.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-93.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-96.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-99.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-102.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-105.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-108.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-111.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-114.png',
-  'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/home-117.png' ]
-[2019-12-28T13:38:48.392] [DEBUG] default - 资源目录:  C:/Users/my/Documents/GitHub/dfzjH5/dist/static/resource
-[2019-12-28T13:38:48.396] [DEBUG] default - 开始美化html
-[2019-12-28T13:38:48.436] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\js
-[2019-12-28T13:38:48.437] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\js
-[2019-12-28T13:38:48.437] [DEBUG] default - 页面中不包含切换动画!
-[2019-12-28T13:38:48.437] [INFO] default - 编译结束!
-[2019-12-28T13:38:48.468] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\css\owo.main.0ynbui4bndr.css
-[2019-12-28T13:38:48.469] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\dfzjH5\src\main.css
-[2019-12-28T13:38:48.469] [DEBUG] default - 处理资源:  [ 'C:/Users/my/Documents/GitHub/dfzjH5/src/resource/bg.jpg' ]
-[2019-12-28T13:38:48.469] [DEBUG] default - 资源目录:  C:/Users/my/Documents/GitHub/dfzjH5/dist/static/resource
-[2019-12-28T13:38:48.469] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\dfzjH5\src\main.js
-[2019-12-28T13:38:48.469] [INFO] default - 主要逻辑文件写出成功!
-[2019-12-28T13:38:48.470] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\dfzjH5\src\resource\lax.js
-[2019-12-28T13:38:48.666] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\dfzjH5\src\resource\iscroll-lite.js
-[2019-12-28T13:38:48.689] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\js\main.js
-[2019-12-28T13:38:48.690] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\css\main.css
-[2019-12-28T13:38:48.693] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\js\lax.js
-[2019-12-28T13:38:48.728] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\dfzjH5\dist\static\js\iscroll-lite.js
+[2019-12-30T09:46:16.489] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-30T09:46:16.492] [INFO] default - 程序运行目录: D:\work\地方足迹H5
+[2019-12-30T09:46:16.492] [INFO] default - 首次启动!
+[2019-12-30T09:46:16.492] [INFO] default - 生成版本号: berg7mp2em
+[2019-12-30T09:46:16.524] [INFO] default - 清理资源文件夹: D:\work\地方足迹H5\dist\static
+[2019-12-30T09:46:16.524] [INFO] default - 文件夹不存在: D:\work\地方足迹H5\dist\static
+[2019-12-30T09:46:16.525] [INFO] default - 创建文件夹: D:\work\地方足迹H5\dist\static
+[2019-12-30T09:46:16.525] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-30T09:46:16.525] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-30T09:46:16.525] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-30T09:46:16.526] [INFO] default - 开始处理模块: one
+[2019-12-30T09:46:17.097] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-12-30T09:46:17.179] [DEBUG] default - 页面one处理用时: 653 毫秒!
+[2019-12-30T09:46:17.181] [INFO] default - 文件夹不存在: D:/work/地方足迹H5/dist/static/resource
+[2019-12-30T09:46:17.181] [INFO] default - 创建文件夹: D:/work/地方足迹H5/dist/static/resource
+[2019-12-30T09:46:17.181] [DEBUG] default - css中的资源处理完毕!
+[2019-12-30T09:46:17.815] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-30T09:46:17.909] [INFO] default - 文件夹不存在: D:\work\地方足迹H5\dist\static\css
+[2019-12-30T09:46:17.909] [INFO] default - 创建文件夹: D:\work\地方足迹H5\dist\static\css
+[2019-12-30T09:46:17.911] [INFO] default - 开始处理附属css中的资源
+[2019-12-30T09:46:17.911] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-30T09:46:17.911] [INFO] default - 处理字体: {}
+[2019-12-30T09:46:17.925] [INFO] default - 使用postcss处理完毕! 用时: 110 毫秒
+[2019-12-30T09:46:17.926] [INFO] default - 正在处理script!
+[2019-12-30T09:46:18.602] [INFO] default - 工程中只有一个页面!
+[2019-12-30T09:46:18.604] [INFO] default - js中的资源处理完毕!
+[2019-12-30T09:46:18.604] [DEBUG] default - 处理引用脚本: [{"name":"iscroll-lite","src":"./src/resource/iscroll-lite.js"},{"name":"lax","src":"./src/resource/lax.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-30T09:46:18.605] [DEBUG] default - 外部脚本数量: 3
+[2019-12-30T09:46:18.605] [DEBUG] default - 处理脚本: iscroll-lite
+[2019-12-30T09:46:18.605] [INFO] default - 读取文件: D:\work\地方足迹H5\src\resource\iscroll-lite.js
+[2019-12-30T09:46:18.605] [DEBUG] default - 处理脚本: lax
+[2019-12-30T09:46:18.605] [INFO] default - 读取文件: D:\work\地方足迹H5\src\resource\lax.js
+[2019-12-30T09:46:18.605] [DEBUG] default - 处理脚本: main
+[2019-12-30T09:46:18.605] [INFO] default - 读取文件: D:\work\地方足迹H5\src\main.js
+[2019-12-30T09:46:18.605] [DEBUG] default - 输出scriptData
+[2019-12-30T09:46:18.607] [DEBUG] default - 准备输出html!
+[2019-12-30T09:46:18.608] [INFO] default - 读取文件: D:/work/地方足迹H5/src/resource/doit-9.gif
+[2019-12-30T09:46:18.608] [INFO] default - 读取文件: D:/work/地方足迹H5/src/resource/doit-8.gif
+[2019-12-30T09:46:18.608] [INFO] default - 读取文件: D:/work/地方足迹H5/src/resource/doit-7.gif
+[2019-12-30T09:46:18.608] [INFO] default - 读取文件: D:/work/地方足迹H5/src/resource/doit-6.gif
+[2019-12-30T09:46:18.609] [INFO] default - 读取文件: D:/work/地方足迹H5/src/resource/doit-5.gif
+[2019-12-30T09:46:18.609] [INFO] default - 读取文件: D:/work/地方足迹H5/src/resource/doit-4.gif
+[2019-12-30T09:46:18.610] [INFO] default - 读取文件: D:/work/地方足迹H5/src/resource/doit-3.gif
+[2019-12-30T09:46:18.610] [INFO] default - 读取文件: D:/work/地方足迹H5/src/resource/doit-2.gif
+[2019-12-30T09:46:18.613] [DEBUG] default - 忽略文件: D:/work/地方足迹H5/src/resource/home-34.png
+[2019-12-30T09:46:18.614] [DEBUG] default - 忽略文件: D:/work/地方足迹H5/src/resource/home-34.png
+[2019-12-30T09:46:18.614] [DEBUG] default - 忽略文件: D:/work/地方足迹H5/src/resource/home-34.png
+[2019-12-30T09:46:18.617] [DEBUG] default - 处理资源:  [ 'D:/work/地方足迹H5/src/resource/home-63.png',
+  'D:/work/地方足迹H5/src/resource/home-57.png',
+  'D:/work/地方足迹H5/src/resource/home-61.png',
+  'D:/work/地方足迹H5/src/resource/home-62.png',
+  'D:/work/地方足迹H5/src/resource/path-2.png',
+  'D:/work/地方足迹H5/src/resource/path-3.png',
+  'D:/work/地方足迹H5/src/resource/path-4.png',
+  'D:/work/地方足迹H5/src/resource/path-5.png',
+  'D:/work/地方足迹H5/src/resource/path-6.png',
+  'D:/work/地方足迹H5/src/resource/path-7.png',
+  'D:/work/地方足迹H5/src/resource/path-8.png',
+  'D:/work/地方足迹H5/src/resource/path-9.png',
+  'D:/work/地方足迹H5/src/resource/path-10.png',
+  'D:/work/地方足迹H5/src/resource/home-71.png',
+  'D:/work/地方足迹H5/src/resource/home-72.png',
+  'D:/work/地方足迹H5/src/resource/home-49.png',
+  'D:/work/地方足迹H5/src/resource/home-50.png',
+  'D:/work/地方足迹H5/src/resource/home-42.png',
+  'D:/work/地方足迹H5/src/resource/home-43.png',
+  'D:/work/地方足迹H5/src/resource/home-36.png',
+  'D:/work/地方足迹H5/src/resource/home-41.png',
+  'D:/work/地方足迹H5/src/resource/home-31.png',
+  'D:/work/地方足迹H5/src/resource/home-32.png',
+  'D:/work/地方足迹H5/src/resource/home-23.png',
+  'D:/work/地方足迹H5/src/resource/home-24.png',
+  'D:/work/地方足迹H5/src/resource/home-13.png',
+  'D:/work/地方足迹H5/src/resource/home-12.png',
+  'D:/work/地方足迹H5/src/resource/home-6.png',
+  'D:/work/地方足迹H5/src/resource/home-70.png',
+  'D:/work/地方足迹H5/src/resource/home-56.png',
+  'D:/work/地方足迹H5/src/resource/home-48.png',
+  'D:/work/地方足迹H5/src/resource/home-40.png',
+  'D:/work/地方足迹H5/src/resource/home-30.png',
+  'D:/work/地方足迹H5/src/resource/home-22.png',
+  'D:/work/地方足迹H5/src/resource/home-14.png',
+  'D:/work/地方足迹H5/src/resource/home-4.png',
+  'D:/work/地方足迹H5/src/resource/home-64.png',
+  'D:/work/地方足迹H5/src/resource/home-66.png',
+  'D:/work/地方足迹H5/src/resource/home-65.png',
+  'D:/work/地方足迹H5/src/resource/home-52.png',
+  'D:/work/地方足迹H5/src/resource/petal-1.png',
+  'D:/work/地方足迹H5/src/resource/home-51.png',
+  'D:/work/地方足迹H5/src/resource/petal-2.png',
+  'D:/work/地方足迹H5/src/resource/home-44.png',
+  'D:/work/地方足迹H5/src/resource/bamboo-1.png',
+  'D:/work/地方足迹H5/src/resource/bamboo-2.png',
+  'D:/work/地方足迹H5/src/resource/bamboo-3.png',
+  'D:/work/地方足迹H5/src/resource/home-34.png',
+  'D:/work/地方足迹H5/src/resource/home-33.png',
+  'D:/work/地方足迹H5/src/resource/home-35.png',
+  'D:/work/地方足迹H5/src/resource/home-28.png',
+  'D:/work/地方足迹H5/src/resource/home-29.png',
+  'D:/work/地方足迹H5/src/resource/home-20.png',
+  'D:/work/地方足迹H5/src/resource/home-19.png',
+  'D:/work/地方足迹H5/src/resource/home-21.png',
+  'D:/work/地方足迹H5/src/resource/home-8.png',
+  'D:/work/地方足迹H5/src/resource/home-9.png',
+  'D:/work/地方足迹H5/src/resource/home-5.png',
+  'D:/work/地方足迹H5/src/resource/home-75.png',
+  'D:/work/地方足迹H5/src/resource/home-78.png',
+  'D:/work/地方足迹H5/src/resource/home-81.png',
+  'D:/work/地方足迹H5/src/resource/home-87.png',
+  'D:/work/地方足迹H5/src/resource/home-90.png',
+  'D:/work/地方足迹H5/src/resource/home-93.png',
+  'D:/work/地方足迹H5/src/resource/home-96.png',
+  'D:/work/地方足迹H5/src/resource/home-99.png',
+  'D:/work/地方足迹H5/src/resource/home-102.png',
+  'D:/work/地方足迹H5/src/resource/home-105.png',
+  'D:/work/地方足迹H5/src/resource/home-108.png',
+  'D:/work/地方足迹H5/src/resource/home-111.png',
+  'D:/work/地方足迹H5/src/resource/home-114.png',
+  'D:/work/地方足迹H5/src/resource/home-117.png' ]
+[2019-12-30T09:46:18.618] [DEBUG] default - 资源目录:  D:/work/地方足迹H5/dist/static/resource
+[2019-12-30T09:46:18.627] [DEBUG] default - 开始美化html
+[2019-12-30T09:46:18.667] [INFO] default - 文件夹不存在: D:\work\地方足迹H5\dist\static\js
+[2019-12-30T09:46:18.668] [INFO] default - 创建文件夹: D:\work\地方足迹H5\dist\static\js
+[2019-12-30T09:46:18.668] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-30T09:46:18.669] [INFO] default - 编译结束!
+[2019-12-30T09:46:18.701] [INFO] default - 写入文件: D:\work\地方足迹H5\dist\static\css\owo.main.berg7mp2em.css
+[2019-12-30T09:46:18.704] [INFO] default - 读取成功: D:\work\地方足迹H5\src\main.css
+[2019-12-30T09:46:18.705] [DEBUG] default - 处理资源:  [ 'D:/work/地方足迹H5/src/resource/bg.jpg' ]
+[2019-12-30T09:46:18.705] [DEBUG] default - 资源目录:  D:/work/地方足迹H5/dist/static/resource
+[2019-12-30T09:46:18.705] [INFO] default - 读取成功: D:\work\地方足迹H5\src\main.js
+[2019-12-30T09:46:18.705] [INFO] default - 读取成功: D:/work/地方足迹H5/src/resource/doit-9.gif
+[2019-12-30T09:46:18.706] [INFO] default - 读取成功: D:/work/地方足迹H5/src/resource/doit-8.gif
+[2019-12-30T09:46:18.706] [INFO] default - 读取成功: D:/work/地方足迹H5/src/resource/doit-4.gif
+[2019-12-30T09:46:18.706] [INFO] default - 读取成功: D:/work/地方足迹H5/src/resource/doit-5.gif
+[2019-12-30T09:46:18.706] [INFO] default - 读取成功: D:/work/地方足迹H5/src/resource/doit-6.gif
+[2019-12-30T09:46:18.707] [INFO] default - 读取成功: D:/work/地方足迹H5/src/resource/doit-7.gif
+[2019-12-30T09:46:18.708] [INFO] default - 读取成功: D:/work/地方足迹H5/src/resource/doit-2.gif
+[2019-12-30T09:46:18.708] [INFO] default - 读取成功: D:/work/地方足迹H5/src/resource/doit-3.gif
+[2019-12-30T09:46:18.709] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-30T09:46:18.710] [INFO] default - 读取成功: D:\work\地方足迹H5\src\resource\lax.js
+[2019-12-30T09:46:19.647] [INFO] default - 读取成功: D:\work\地方足迹H5\src\resource\iscroll-lite.js
+[2019-12-30T09:46:19.647] [INFO] default - 写入文件: D:\work\地方足迹H5\dist\static\js\main.js
+[2019-12-30T09:46:19.647] [INFO] default - 写入文件: D:\work\地方足迹H5\dist\static\css\main.css
+[2019-12-30T09:46:19.647] [INFO] default - 写入文件: D:/work/地方足迹H5/dist/static/resource/doit-9.gif
+[2019-12-30T09:46:19.668] [INFO] default - 写入文件: D:/work/地方足迹H5/dist/static/resource/doit-6.gif
+[2019-12-30T09:46:19.668] [INFO] default - 写入文件: D:/work/地方足迹H5/dist/static/resource/doit-5.gif
+[2019-12-30T09:46:19.668] [INFO] default - 写入文件: D:/work/地方足迹H5/dist/static/resource/doit-8.gif
+[2019-12-30T09:46:19.668] [INFO] default - 写入文件: D:/work/地方足迹H5/dist/static/resource/doit-4.gif
+[2019-12-30T09:46:19.668] [INFO] default - 写入文件: D:/work/地方足迹H5/dist/static/resource/doit-7.gif
+[2019-12-30T09:46:19.796] [INFO] default - 写入文件: D:/work/地方足迹H5/dist/static/resource/doit-2.gif
+[2019-12-30T09:46:19.796] [INFO] default - 写入文件: D:/work/地方足迹H5/dist/static/resource/doit-3.gif
+[2019-12-30T09:46:19.797] [INFO] default - 写入文件: D:\work\地方足迹H5\dist\static\js\lax.js
+[2019-12-30T09:46:19.938] [INFO] default - 写入文件: D:\work\地方足迹H5\dist\static\js\iscroll-lite.js

@@ -1,4 +1,4 @@
-// Sat Dec 28 2019 13:38:48 GMT+0800 (GMT+08:00)
+// Mon Dec 30 2019 09:46:18 GMT+0800 (GMT+08:00)
 var owo = {tool: {},state: {},};
 /* 方法合集 */
 var _owo = {}
@@ -119,6 +119,14 @@ _owo.handleEvent = function (tempDom, moudleScript) {
             }
             break
           }
+          case 'html': {
+            var temp = eventFor.replace(/ /g, '')
+            function tempRun (temp) {
+              return eval(temp)
+            }
+            tempDom.innerHTML = tempRun.apply(moudleScript, [temp])
+            break
+          }
           default: {
             _owo.bindEvent(eventName, eventFor, tempDom, moudleScript)
           }
@@ -160,6 +168,9 @@ _owo.handlePage = function (newPageFunction, entryDom) {
   if (!newPageFunction) return
   // console.log(entryDom)
   newPageFunction['$el'] = entryDom
+  newPageFunction.$refresh = function () {
+    _owo.handleEvent(newPageFunction.$el, newPageFunction)
+  }
   // console.log(newPageFunction)
   _owo.runCreated(newPageFunction)
   // debugger

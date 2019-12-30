@@ -15,3 +15,6 @@ scaleBox.style.transform = `scale(${scale}, ${scale})`
 scaleBox.style.transformOrigin = `0  0`
 var maxHeight = scale * deviseH
 document.getElementsByClassName('home')[0].style.height = maxHeight + 'px'
+setTimeout(function () {
+  document.body.style.opacity = '1'
+}, 0);

@@ -18,14 +18,14 @@
       img.soulless.path-9.item-9(src="@|path-9.png|" o-tap="slowScrollTo(4550)")
       img.soulless.path-10.item-10(src="@|path-10.png|")
       //- 路标
-      img.soulless.suo-9.item-9.lax(src="@|doit-9.png|" data-lax-opacity="(vw*0.6) 0, (vw*1.6) 1")
-      img.soulless.suo-8.item-8.lax(src="@|doit-8.png|" data-lax-scale="(vw*1.8) 0, (vw*2.4) 1")
-      img.soulless.suo-7.item-7.lax(src="@|doit-7.png|" data-lax-opacity="(vw*3.4) 0, (vw*4.1) 1")
-      img.soulless.suo-6.item-6.lax(src="@|doit-6.png|" data-lax-scale="(vw*5.1) 0, (vw*5.9) 1")
-      img.soulless.suo-5.item-5.lax(src="@|doit-5.png|" data-lax-scale="(vw*6.6) 0, (vw*7.2) 1")
-      img.soulless.suo-4.item-4.lax(src="@|doit-4.png|" data-lax-scale="(vw*8.2) 0, (vw*8.8) 1")
-      img.soulless.suo-3.item-3.lax(src="@|doit-3.png|" data-lax-scale="(vw*9.7) 0, (vw*10) 1")
-      img.soulless.suo-2.item-2.lax(src="@|doit-2.png|" data-lax-scale="(vw*10.9) 0, (vw*11.5) 1")
+      img.soulless.suo-9.item-9.lax(src="@|doit-9.gif|" data-lax-opacity="(vw*0.6) 0, (vw*1.6) 1")
+      img.soulless.suo-8.item-8.lax(src="@|doit-8.gif|" data-lax-scale="(vw*1.8) 0, (vw*2.4) 1")
+      img.soulless.suo-7.item-7.lax(src="@|doit-7.gif|" data-lax-opacity="(vw*3.4) 0, (vw*4.1) 1")
+      img.soulless.suo-6.item-6.lax(src="@|doit-6.gif|" data-lax-scale="(vw*5.1) 0, (vw*5.9) 1")
+      img.soulless.suo-5.item-5.lax(src="@|doit-5.gif|" data-lax-scale="(vw*6.6) 0, (vw*7.2) 1")
+      img.soulless.suo-4.item-4.lax(src="@|doit-4.gif|" data-lax-scale="(vw*8.2) 0, (vw*8.8) 1")
+      img.soulless.suo-3.item-3.lax(src="@|doit-3.gif|" data-lax-scale="(vw*9.7) 0, (vw*10) 1")
+      img.soulless.suo-2.item-2.lax(src="@|doit-2.gif|" data-lax-scale="(vw*10.9) 0, (vw*11.5) 1")
 
 
       // 活动图片
@@ -57,9 +57,15 @@
       img.soulless.so-64.item-64.lax(src="@|home-64.png|" data-lax-translate-x="(vw*1.1) 0, (vw*2.2) -vw" data-lax-translate-y="(vw*1.1) 0, (vw*2.4) vh" data-lax-rotate="(vw*1.1) 0, (vw*2.4) 300" data-lax-opacity="(vw*1.1) 0, (vw*2.4) 1")
       img.soulless.so-66.item-66.lax(src="@|home-66.png|" data-lax-translate-x="(vw*1.1) 0, (vw*2.6) -800" data-lax-translate-y="(vw*1.1) 0, (vw*2.5) vh" data-lax-rotate="(vw*1.1) 0, (vw*2.4) 400" data-lax-opacity="(vw*1.1) 0, (vw*2.4) 1")
       img.soulless.so-65.item-65.lax(src="@|home-65.png|" data-lax-translate-x="(vw*1.1) 0, (vw*2.8) -vw" data-lax-translate-y="(vw*1.1) 0, (vw*2.4) vh" data-lax-rotate="(vw*1.1) 0, (vw*2.4) 250" data-lax-opacity="(vw*1.1) 0, (vw*2.4) 1")
-      img.soulless.so-52.item-52.lax(src="@|home-52.png|" data-lax-translate-x="(vw*2.4) 0, (vw*3.6) -600" data-lax-translate-y="(vw*2.4) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.4) 1, (vw*3.6) 0")
-      img.soulless.so-51.item-51.lax(src="@|home-51.png|" data-lax-translate-x="(vw*2.5) 0, (vw*3.7) -vw" data-lax-translate-y="(vw*2.5) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.2) 1, (vw*3.7) 0")
-      img.soulless.so-44.item-44.lax(src="@|home-44.png|" data-lax-opacity="(vw*4) 0, (vw*4.2) 1")
+      img.soulless.so-52.item-52(src="@|home-52.png|" data-lax-translate-x="(vw*2.4) 0, (vw*3.6) -600" data-lax-translate-y="(vw*2.4) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.4) 1, (vw*3.6) 0")
+      //- 花瓣
+      img.petal-1.lax(src="@|petal-1.png|" data-lax-translate-x="(vw*2.4) 0, (vw*3.6) -600" data-lax-translate-y="(vw*2.4) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.4) 1, (vw*3.6) 0")
+      img.soulless.so-51.item-51.lax(src="@|home-51.png|")
+      img.petal-2.lax(src="@|petal-2.png|" data-lax-translate-x="(vw*2.5) 0, (vw*3.7) -vw" data-lax-translate-y="(vw*2.5) 0, (vw*3.6) vh" data-lax-opacity="(vw*3.2) 1, (vw*3.7) 0")
+      img.soulless.so-44.item-44(src="@|home-44.png|")
+      img.bamboo-1.lax(src="@|bamboo-1.png|" data-lax-translate-x="(vw*4) 0, (vw*5) 600" data-lax-translate-y="(vw*4) 0, (vw*5) vh" data-lax-opacity="(vw*4.6) 1, (vw*5) 0")
+      img.bamboo-2.lax(src="@|bamboo-2.png|" data-lax-translate-x="(vw*4.1) 0, (vw*5.1) vw" data-lax-translate-y="(vw*4.1) 0, (vw*5.1) vh" data-lax-opacity="(vw*4.6) 1, (vw*5.1) 0")
+      img.bamboo-3.lax(src="@|bamboo-3.png|" data-lax-translate-x="(vw*4.1) 0, (vw*5.2) 400" data-lax-translate-y="(vw*4.2) 0, (vw*5.2) vh" data-lax-opacity="(vw*4.8) 1, (vw*5.2) 0")
       //- 花瓣们
       img.soulless.so-34.item-34.lax(src="@|home-34.png|" data-lax-opacity="(vw*6) 1, (vw*6.8) 0" data-lax-translate-y="(vw*5.1) 0, (vw*6.8) 700" data-lax-translate-x="(vw*5.1) 0, (vw*6.8) -700" data-lax-rotate="(vw*5.1) 0, (vw*6.4) 250")
       img.soulless.so-34.item-34.lax(src="@|home-34.png|" data-lax-opacity="(vw*6) 1, (vw*6.8) 0" data-lax-translate-y="(vw*5.2) 0, (vw*6.8) 600" data-lax-translate-x="(vw*5.2) 0, (vw*6.8) -600" data-lax-rotate="(vw*5.2) 0, (vw*6.4) 350")
@@ -73,8 +79,8 @@
       img.soulless.so-28.item-28.lax(src="@|home-28.png|")
       img.soulless.so-29.item-29.lax(src="@|home-29.png|" data-lax-translate-y="(vw*6.7) 0, (vw*7.8) vh" data-lax-translate-x="(vw*6.7) 0, (vw*7.8) vw" data-lax-opacity="(vw*7.6) 1, (vw*7.8) 0")
       img.soulless.so-20.item-20.lax(src="@|home-20.png|" data-lax-opacity="(vw*9) 1, (vw*9.5) 0" data-lax-translate-x="(vw*8.5) 0, (vw*9.5) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.5) vh")
-      img.soulless.so-19.item-19.lax(src="@|home-19.png|" data-lax-opacity="(vw*9.1) 1, (vw*9.6) 0" data-lax-translate-x="(vw*8.4) 0, (vw*9.6) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.2) vh")
-      img.soulless.so-21.item-21.lax(src="@|home-21.png|" data-lax-opacity="(vw*9.1) 1, (vw*9.6) 0" data-lax-translate-x="(vw*8.4) 0, (vw*9.6) -vw" data-lax-translate-y="(vw*8.5) 0, (vw*9.2) vh")
+      img.soulless.so-19.item-19.lax(src="@|home-19.png|" data-lax-opacity="(vw*9.1) 1, (vw*9.6) 0" data-lax-translate-x="(vw*8.4) 0, (vw*9.3) -300" data-lax-translate-y="(vw*8.4) 0, (vw*9.3) vh")
+      img.soulless.so-21.item-21.lax(src="@|home-21.png|" data-lax-opacity="(vw*9.1) 1, (vw*9.6) 0" data-lax-translate-x="(vw*8.4) 0, (vw*9.4) -vw" data-lax-translate-y="(vw*8.4) 0, (vw*9.4) vh")
       img.soulless.so-8.item-8.lax(src="@|home-8.png|" data-lax-opacity="(vw*9.7) 1, (vw*10.5) 0" data-lax-translate-x="(vw*9.7) 0, (vw*10.5) -vw" data-lax-translate-y="(vw*9.7) 0, (vw*10.5) vh")
       img.soulless.so-9.item-9.lax(src="@|home-9.png|" data-lax-opacity="(vw*9.7) 1, (vw*10.5) 0" data-lax-translate-x="(vw*10) 0, (vw*10.8) -vw" data-lax-translate-y="(vw*9.7) 0, (vw*10.8) 400")
       //- data-lax-scale="(vw*11.37) 0, (vw*11.6) 1"
@@ -516,16 +522,46 @@
   left: 623px;
   top: 2404px;
 }
+.petal-1 {
+  position: absolute;
+  left: 697px;
+  top: 2462px;
+  width: 20px;
+}
 .so-51 {
   position: absolute;
   left: 664px;
   top: 2439px;
+}
+.petal-2, .petal-3, .petal-4 {
+  position: absolute;
+  left: 695px;
+  top: 2458px;
+  width: 20px;
 }
 .so-44 {
   position: absolute;
   left: 49px;
   z-index: 44;
   top: 3477px;
+}
+.bamboo-1 {
+  position: absolute;
+  left: 82px;
+  top: 3562px;
+  width: 40px;
+}
+.bamboo-2 {
+  position: absolute;
+  left: 46px;
+  top: 3613px;
+  width: 37px;
+}
+.bamboo-3 {
+  position: absolute;
+  left: 134px;
+  top: 3548px;
+  width: 40px;
 }
 .so-34 {
   position: absolute;
@@ -1176,49 +1212,49 @@
 }
 .suo-9 {
   position: absolute;
-  left: 96px;
+  left: 125px;
   z-index: 9;
-  top: 1437px;
+  top: 1460px;
 }
 .suo-8 {
   position: absolute;
-  left: 238px;
+  left: 200px;
   z-index: 8;
   top: 2458px;
 }
 .suo-7 {
   position: absolute;
-  left: 191px;
+  left: 126px;
   z-index: 7;
   top: 3568px;
 }
 .suo-6 {
   position: absolute;
-  left: 74px;
+  left: 20px;
   z-index: 6;
   top: 4710px;
 }
 .suo-5 {
   position: absolute;
-  left: 135px;
+  left: 80px;
   z-index: 5;
   top: 5860px;
 }
 .suo-4 {
   position: absolute;
-  left: 89px;
+  left: 45px;
   z-index: 4;
-  top: 7021px;
+  top: 6985px;
 }
 .suo-3 {
   position: absolute;
-  left: 71px;
+  left: 10px;
   z-index: 3;
   top: 8183px;
 }
 .suo-2 {
   position: absolute;
-  left: 189px;
+  left: 130px;
   z-index: 2;
   top: 9209px;
 }
