@@ -18,3 +18,11 @@ document.getElementsByClassName('home')[0].style.height = maxHeight + 'px'
 setTimeout(function () {
   document.body.style.opacity = '1'
 }, 0);
+
+
+// 微信加载完毕自动播放音乐
+document.addEventListener("WeixinJSBridgeReady", function () {
+  var music = new Audio("@|bg.mp3|")
+  music.loop = true
+  music.play()
+}, false)
