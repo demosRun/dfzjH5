@@ -22,7 +22,7 @@ setTimeout(function () {
 
 // 微信加载完毕自动播放音乐
 document.addEventListener("WeixinJSBridgeReady", function () {
-  var music = new Audio("@|bg.mp3|")
+  var music = new Audio("./static/resource/bg.mp3")
   music.loop = true
   music.play()
 }, false)

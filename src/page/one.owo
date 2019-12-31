@@ -228,16 +228,23 @@
       }, 0)
     },
     slowScrollTo: function (num) {
+      // 打字音效
+      new Audio("@|click.mp3|").play()
       console.log((num / 375) * myScroll.wrapperWidth)
       myScroll.scrollTo(0, -(num / 375) * myScroll.wrapperWidth, 800)
     },
     showProp: function (classNmae) {
+      // 打字音效
+      new Audio("@|click.mp3|").play()
       owo.tool.each(owo.query('.prop-box .prop .text'), function (item) {
         item.style.display = 'none'
       })
-      owo.query('.prop-box-shelter')[0].style.left = '0'
-      owo.query('.prop-box-shelter')[0].style.top = '0'
-      owo.query('.prop-box .prop .' + classNmae)[0].style.display = 'block'
+      setTimeout(() => {
+        owo.query('.prop-box-shelter')[0].style.left = '0'
+        owo.query('.prop-box-shelter')[0].style.top = '0'
+        owo.query('.prop-box .prop .' + classNmae)[0].style.display = 'block'
+      }, 0)
+      
     },
     hideProp: function (classNmae) {
       owo.query('.prop-box-shelter')[0].style.left = '-100%'
